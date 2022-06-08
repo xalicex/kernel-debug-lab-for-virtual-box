@@ -33,3 +33,19 @@ For the command `bcdedit /dbgsettings`, for `hostip` set the IP of your Computer
 **The `bcdedit /dbgsettings` will output a Key, *KEEP IT* it will be used on the windbg configuration on Computer A to establish the connection !**
 
 ![Enable Debug on computer B](https://raw.githubusercontent.com/xalicex/kernel-debug-lab-for-virtual-box/main/05.png)
+
+7) On computer A, open Windbg, select `Attach to Kernel` and set the port you choose on Computer B and the key provided by the command `bcdedit /dbgsettings`.
+
+![Enable Debug on computer B](https://raw.githubusercontent.com/xalicex/kernel-debug-lab-for-virtual-box/main/07.png)
+
+8) Now reboot Computer B. On Computer A you will see in the command prompt of windbg some data meaning that the connection is up.
+
+![Connection ok](https://raw.githubusercontent.com/xalicex/kernel-debug-lab-for-virtual-box/main/08.png)
+
+9) You can check by clicking on the button `Break`. If it work the VM should be freezed and you should see a `nt!DbgBreakPointWithStatus` message in the command windows of windbg
+
+![test if ok](https://raw.githubusercontent.com/xalicex/kernel-debug-lab-for-virtual-box/main/09.png)
+
+
+
+
