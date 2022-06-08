@@ -63,7 +63,7 @@ For the command `bcdedit /dbgsettings`, for `hostip` set the IP of your Computer
 </p>
 
 
-9) You can check by clicking on the button `Break`. If it work the VM should be freezed and you should see a `nt!DbgBreakPointWithStatus` message in the command windows of windbg
+9) You can check by clicking on the button `Break`. If it works, Computer B should be freezed and you should see a `nt!DbgBreakPointWithStatus` message in the command windows of windbg
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/xalicex/kernel-debug-lab-for-virtual-box/main/09.png" width="70%" height="70%" >  
