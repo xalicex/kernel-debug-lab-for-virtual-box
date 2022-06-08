@@ -1,4 +1,4 @@
-# kernel-debug-lab-for-virtual-box
+# How to set up a VirtualBox lab to debug Kernel Driver with Windbg
 
 We consider here that on Computer A `windbg` is already installed and on Computer B Visual Studio, the SDK and WDK are installed.
 
