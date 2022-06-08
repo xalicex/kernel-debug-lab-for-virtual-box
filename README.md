@@ -69,4 +69,9 @@ For the command `bcdedit /dbgsettings`, for `hostip` set the IP of your Computer
 <img src="https://raw.githubusercontent.com/xalicex/kernel-debug-lab-for-virtual-box/main/09.png" width="70%" height="70%" >  
 </p>
 
+Have fun ! 
 
+If you want good ressources to practice go check :
+
+- [Windows Kernel Programming by Pavel Yosifovich](https://www.amazon.fr/Windows-Kernel-Programming-Pavel-Yosifovich/dp/1977593372)
+- [Offensive Driver Development by @_rastamouse](https://training.zeropointsecurity.co.uk/courses/offensive-driver-development)
