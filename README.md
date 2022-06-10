@@ -36,7 +36,10 @@ We consider here that on Computer A `windbg` is already installed and on Compute
 </p>
 
 
-6) On computer B enable kernel debugging, setup the connection to Computer A for debug and enable test signing. 
+6) On computer B from an administrator terminal:
+- Enable kernel debugging `bcdedit /debug on`
+- Setup the connection to Computer A for debug `bcdedit /dbgsettings hostip:1.2.3.4 port:50005`
+- Enable test signing `bcdedit /set testsigning on`
 
 For the command `bcdedit /dbgsettings`, for `hostip` set the IP of your Computer A, for `port` choose the one you want between 50000 and 50039. 
 
